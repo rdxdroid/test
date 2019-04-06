@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="text/javascript" src="https://unpkg.com/vue"></script>
+	<link rel="stylesheet" href="css/about.css">
+	<link rel="stylesheet" href="css/common-elements.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora|Neucha|M+PLUS+Rounded+1c">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+	<title>निर्यमणा: About Us</title>
+</head>
+
+<div id="main">
+	<body>
+		<header class="header">
+			<img src="images/niryamana_logo.png">
+		</header>
+
+		<nav>
+			<ul class="navbar">
+				<a class="fas fa-user-circle" style="float: left" v-if="userLoginStatus" @click="openNav()"></a>
+				<a href="index.html"><li>Home</li></a>
+				<a href="community.html" v-if="userLoginStatus"><li>The	Community</li></a>
+				<a href="about.html"><li>About</li></a>
+				<a href="regLogin.html" style="float: right;" v-if="!userLoginStatus"><li>Login/Register</li></a>
+				<a href="regLogin.html" style="float: right;" v-if="userLoginStatus" @click="signOut"><li>Logout</li></a>
+			</ul>
+		</nav>
+
+		<section class="content">
+			<div class="columns">
+				<div class="column is-two-thirds">
+					<h1>An unchanging world</h1>
+
+					<p>There are times when we notice small things which we can fix
+						by ourselves, but we leave it to others to do the job. Unattended,
+						the problem which was small yesterday becomes a huge nuisance
+						today. Litter in the streets, clogged drainways, there are so many
+						things we can fix ourselves, but we choose otherwise, only to
+						complaint about it later.</p>
+				</div>
+
+				<div class="column" style="margin: 2% 4% 0% 0%">
+					<img src="images/trash.jpg"
+						alt="A bull sitting in a spread of trash beside a road.">
+				</div>
+			</div>
+
+			<div class="columns">
+				<div class="column is-centered">
+					<img src="images/volunteers_cleaning.jpg"
+						alt="6 volunteering men cleaning up a street.">
+				</div>
+
+				<div class="column is-two-thirds">
+					<h1>Hoping for a change</h1>
+
+					<p>Niryamana intends to be the platform where people can come
+						together to find ways to solve these everyday problems. And the
+						best part, they do so voluntarily, without expecting anything in
+						return. Okay, maybe a little thank you won't hurt anyone, but other
+						than that, there's no payment involved for the volunteers.</p>
+				</div>
+			</div>
+
+			<div class="columns">
+				<div class="column is-two-thirds">
+					<h1>Our sole motivation</h1>
+
+					<p>We realize that it's an ambitious project, and the world we
+						usually portray is not a place where such an idea can flourish.
+						However, we believe in one of the core traits of human beings;
+						humanity. It's something we all have, and we are counting on it to
+						bring about small changes in the world we live in. The
+						possibilities are endless; it's up to you to see where we go from
+						here. Welcome to Niryamana. We hope you find what you were looking
+						for.</p>
+				</div>
+
+				<div class="column" style="margin-top: 6%">
+					<img src="images/humanity.png">
+				</div>
+			</div>
+
+			<div class="columns">
+				<div class="column" style="margin: 8% 0% 0% 7%">
+					<img src="images/churchil_quote.png">
+				</div>
+
+				<div class="column is-two-thirds">
+					<h1>How was this even started?</h1>
+
+					<p>There's a joke in Sicily, that the world is too cruel for a
+						child to have just a single father. Niryamana is the child of five
+						fathers, and each of us contribute to the seriousness of the joke.
+
+						Niryamana started as an idea of a teenager, still green in the ways
+						of the world. Soon though, it took ahold of four college students,
+						who were looking for an idea for their college project. This
+						unlikely collaboration ended up creating a web portal, with a
+						singular aim to help. Even the name, Niryamana, comes from
+						Sanskrit, and means assistance.</p>
+				</div>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<p>
+				Niryamana is a non-profit initiative to connect people together in
+				hopes of making Indian communities better. To know more about our
+				mission and lend your support, do check out our About page and our
+				social media pages. <br /> © Niryamana 2019. All rights reserved.
+			</p>
+		</footer>
+	</body>
+</div>
+
+<script type="text/javascript" src="js/about.js"></script>
+</html>

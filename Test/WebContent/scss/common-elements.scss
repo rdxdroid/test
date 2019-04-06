@@ -1,0 +1,52 @@
+/*The first two lines imports the Bulma framework into the HTML.*/
+/*The import command should be commented depending on who's working on the styling. This needs a permanent solution.*/
+@charset "utf-8";
+/*@import "C:/Users/Ayush/Documents/GitHub/niryamana/WebContent/bulma/bulma.sass";*/
+@import "C:/Users/Anurag/Dropbox/My Documents/My Works/Mein Web-dev Projects/niryamana/WebContent/node_modules/bulma/bulma.sass";
+
+body{
+	background-color: #fffbf9;
+}
+
+.header{
+	background-color: #1a8ee0;
+
+	img{
+		max-height: 60%;
+	}
+}
+
+.navbar{
+	display: block;
+	position: relative;
+	background-color: #1a8ee0;
+	overflow: hidden;
+	
+	a{
+		color: #ffffff;
+		float: left;
+		text-align: center;
+		padding: 1.1em;
+		font: 1.2em 'Neucha', cursive;
+
+		&:hover{
+			background-color: #c1cfda;
+			color: #000000;
+		}
+	}
+}
+
+.footer{
+	background-color: #276eba;
+	overflow: hidden;
+	padding: 1.5em 0em;
+	position: relative;
+
+	p{
+		text-align: center;
+		float: left;
+		padding: 0.5em 4em;
+		margin: 0em 2em;
+		font-family: 'M PLUS Rounded 1c', sans-serif;
+	}
+}

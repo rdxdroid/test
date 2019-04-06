@@ -1,0 +1,33 @@
+/*The first two lines imports the Bulma framework into the HTML.*/
+/*The import command should be commented depending on who's working on the styling. This needs a permanent solution.*/
+@charset "utf-8";
+/*@import "C:/Users/Ayush/Documents/GitHub/niryamana/WebContent/bulma/bulma.sass";*/
+@import "C:/Users/Anurag/Dropbox/My Documents/My Works/Mein Web-dev Projects/niryamana/WebContent/node_modules/bulma/bulma.sass";
+
+.logreg{
+	padding: 1.25em;
+
+	p{
+		font-family: 'M PLUS Rounded 1c', sans-serif;
+		font-size: 1em;
+	}
+
+	h1{
+		font: bold 1.4em strong;
+		font-family: 'Lora', serif;
+	}
+
+	input{
+		width: 70%;
+		padding: 0.5em;
+		margin: 0.2em;
+	}
+
+	button{
+		width: 35%;
+		margin: .5em;
+		font-size: 0.8em;
+		background-color: #d6d6c2;
+		border-radius: .6em;
+	}
+}

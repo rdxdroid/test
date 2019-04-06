@@ -1,0 +1,48 @@
+/*The first two lines imports the Bulma framework into the HTML.*/
+/*The import command should be commented depending on who's working on the styling. This needs a permanent solution.*/
+@charset "utf-8";
+/*@import "C:/Users/Ayush/Documents/GitHub/niryamana/WebContent/bulma/bulma.sass";*/
+@import "C:/Users/Anurag/Dropbox/My Documents/My Works/Mein Web-dev Projects/niryamana/WebContent/node_modules/bulma/bulma.sass";
+
+.sidenav{
+	background-color: #1a8ee0;
+	text-align: center;
+	min-height: 100%;
+
+	a{
+		padding: 0.6em;
+		text-decoration: none;
+		font-size: 1.2em;
+		color: #ffffff;
+		display: block;
+
+		&:hover{
+			background-color: #c1cfda;
+			color: #000000;
+		}
+	}
+}
+
+.main{
+	font-family: 'Lora' , serif;
+	font-size: 1.4em;
+}
+
+.editButton{
+	position: relative;
+	float: right;
+	width: 25%;
+	margin: none;
+	font-family: 'Neucha', cursive;
+	font-size: 0.8em;
+	background-color: #fffbf9;
+	border-radius: 1.5em;
+}
+
+button{
+	width: 35%;
+	margin: .5em;
+	font-size: 0.8em;
+	background-color: #d6d6c2;
+	border-radius: .6em;
+}

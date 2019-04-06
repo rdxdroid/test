@@ -1,0 +1,21 @@
+/*The first two lines imports the Bulma framework into the HTML.*/
+/*The import command should be commented depending on who's working on the styling. This needs a permanent solution.*/
+@charset "utf-8";
+/*@import "C:/Users/Ayush/Documents/GitHub/niryamana/WebContent/bulma/bulma.sass";*/
+@import "C:/Users/Anurag/Dropbox/My Documents/My Works/Mein Web-dev Projects/niryamana/WebContent/node_modules/bulma/bulma.sass";
+
+.content{
+	h1{
+		margin: 0.5em;
+		text-align: center;
+		font: bold 1.8em;
+		font-family: 'Lora', serif;
+	}
+
+	p{
+		padding: 0.2em 3em 0em;
+		margin: 1em;
+		font-family: 'M PLUS Rounded 1c', sans-serif;
+		font-size: 1.4em;
+	}
+}
